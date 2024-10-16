@@ -1,0 +1,13 @@
+wx.cloud.callContainer({
+  "config": {
+    "env": "prod-4ggdyi4ze1ed9cc2"
+  },
+  "path": "/api/count",
+  "header": {
+    "X-WX-SERVICE": "django-z5zv"
+  },
+  "method": "POST",
+  "data": {
+    "action": "inc"
+  }
+})
